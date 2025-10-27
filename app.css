@@ -1,0 +1,44 @@
+body {
+  background: radial-gradient(circle at top, #2b0000, #000);
+  font-family: "poppins", sans-serif;
+}
+
+#title-head {
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.blurb h2 {
+  color: #ff4500;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+@media (max-width: 1200px) {
+  #title-head h1 {
+    font-weight: 100;
+    font-size: 2rem;
+  }
+}
+
+.blurb {
+  background: rgba(255, 68, 0, 0.05);
+
+  border: 1px solid rgba(255, 68, 0, 0.3);
+
+  border-radius: 15px;
+
+  box-shadow: 0 0 20px rgba(255, 68, 0, 0.2);
+}
